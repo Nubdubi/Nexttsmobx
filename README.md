@@ -3,12 +3,50 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 First, run the development server:
+```bash
+yarn create-next-app #설치중간에 폴더명설정
+cd 폴더명
+yarn add next react react-dom
+yarn add --dev typescript @types/react @types/node
+touch tsconfig.json
+yarn dev
+#실행이 안될시 
+
+yarn add -D typesctipt @type/react  
+tsconfig.json #package.json 있는 위치에 파일 생성
+yarn dev 
+
+```
+
+next-app 설치후 typescript 를 설치해준뒤
+touch tsconfig.json 이 안될경우에는
+package.json 이있는 위치에 tsconfig.json 을 만들어줍니다.
+만들고 실행하게 되면 
+자동으로 컴파일링 되면서 tsconfing 에 내용이 남게 됩니다.
+폴더내부에 /api폴더를  삭제해줍니다.
+만약 컴파일링이 안됬다면 Ctrl + C를 눌러 실행을 중지시키고 
+다시 yarn dev 를 이용해 실행시켜주면 됩니다.
+
 
 ```bash
-npm run dev
+yarn add mobx mobx-react
+```
+yarn add mobx mobx-react을 이용해 bobx를 설치해줍니다.
+
+
+```bash
+npm install  dev
 # or
 yarn dev
 ```
+
+
+```bash
+npm install  dev
+# or
+yarn dev
+```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
