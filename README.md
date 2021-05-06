@@ -5,10 +5,54 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
-# or
+yarn create-next-app # 설치 중간에 폴더명 설정
+cd 폴더명
+yarn add next react react-dom
+
+# typescript 설정
+touch tsconfig.json
+yarn add --dev typescript @types/react @types/node
 yarn dev
+# 프리티어 및 eslint 설정
+yarn add -D prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react @typescript-eslint/eslint-plugin @typescript-eslint/parser
+# 스타일 컴포넌트 설정
+yarn add styled-components
+yarn add -D @types/styled-components babel-plugin-styled-components
+
+
+# mobx 설치
+yarn add mobx mobx-react
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
