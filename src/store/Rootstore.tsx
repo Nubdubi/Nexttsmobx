@@ -1,5 +1,6 @@
 import {action, makeAutoObservable, makeObservable,observable} from 'mobx'
 import { inject } from 'mobx-react';
+import styled,{css} from "styled-components"
 
 export interface List {
 category: string
@@ -12,9 +13,6 @@ title: string
 
 const addList = (lists: List[], id?:any): List[]=>
  lists.filter((list)=> list.id != id);
-
-
-
 
 //Mobx implemnetation
 
@@ -62,3 +60,4 @@ class Store {
 
 const store = new Store();
 export default store;
+
