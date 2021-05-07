@@ -8,9 +8,6 @@ export const size = {
 }
 
 const theme: DefaultTheme = {
-  background:{
-    base: '#ffffff',
-  },
   color: {
     primary: '#344E5C',
     secondary: '#4AB19D',

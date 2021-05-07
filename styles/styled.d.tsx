@@ -2,9 +2,7 @@ import 'styled-components'
 
 declare module 'styled-components' {
   export interface DefaultTheme {
-    background:{
-      base:string
-    }
+   
     color: {
       primary: string
       secondary: string
