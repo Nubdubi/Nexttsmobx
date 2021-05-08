@@ -13,13 +13,11 @@ export function SoapContainer() {
       {db.map((item)=>(
         <Soap  key={item.id}>
          <Soap.Image src={item.image}/>
-         <div className="wrap">
-         <Soap.Title><h1>{item.title}</h1></Soap.Title> 
-         <Soap.Price> <h2>{item.price}</h2></Soap.Price>
+         <Soap.Title>{item.title}</Soap.Title> 
+         <Soap.Price>{item.price}</Soap.Price>
          <Soap.Category><span>{item.category}</span></Soap.Category> 
          <Soap.Description><span>{item.description}</span></Soap.Description> 
          {/* <Soap.Button >버튼</Soap.Button> */}
-         </div>
         </Soap>
       ))}
        </Soap.Container>   

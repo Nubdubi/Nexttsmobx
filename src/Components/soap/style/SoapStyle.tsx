@@ -47,26 +47,23 @@ const big = keyframes`
 
 `;
 
-export const SoapItem = styled.div.attrs(()=>({tabIndex:0}))`
+export const SoapItem = styled.div`
   width:20%;
   height:60vh;
   display:flex;
   flex-direction:column;
   hegiht:100%;
-  background-color:#ffaacc50;
+  background-color:${props => props.theme.color.gray0};
  justify-content: center;
   margin:5px;
   padding:10px;
   border-radius:20px;
-
-  
 
   &:hover {
   background-color:lightblue;
   cursor: grabbing;
   }
 
-  
 `
 
 export const Title = styled.h1`

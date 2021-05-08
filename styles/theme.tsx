@@ -6,7 +6,14 @@ export const size = {
   mobile: '31.25em', // 500px
   mobileS: '23.125em', // 370px
 }
-
+export const DarkTheme ={
+  background:{
+    dark:'#dddddd'
+  },
+  color:{
+    white:'#ffffff'
+  }
+}
 const theme: DefaultTheme = {
   color: {
     primary: '#344E5C',

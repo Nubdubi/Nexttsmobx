@@ -1,4 +1,3 @@
-import Layout from '../Components/header/Layout'
 import {MainStyled} from "../../styles/SoapStyle"
 import { SoapContainer } from '../containers/Soap'
 
@@ -12,13 +11,11 @@ function Home() {
  
 
   return (
-    <Layout pageTitle="Home">
+    <>
      <MainStyled >
        <SoapContainer/>
      </MainStyled>
-    </Layout>
-  
-  
+   </> 
     )
 }
 
