@@ -1,15 +1,10 @@
 import React from 'react'
-import {
-  Container,
-  Something,
+import { Container, Something } from './style/kkakStyle'
 
-} from "./style/kkakStyle"
-
-export default function Kkak({children,...restProps}) {
-  return ( <Container {...restProps}>{children}</Container>)
+export default function Kkak({ children, ...restProps }) {
+	return <Container {...restProps}>{children}</Container>
 }
 
-
-Kkak.something =  function Kkaksomething({children, ...restProps}){
-  return <Something {...restProps}>{children}</Something>;
+Kkak.something = function Kkaksomething({ children, ...restProps }) {
+	return <Something {...restProps}>{children}</Something>
 }
