@@ -1,8 +1,5 @@
 import React from 'react'
-import {Header} from '../Components'
-import * as ROUTES from '../constants/routes';
-import Link,{LinkProps} from 'next/link'
-import Router from 'next/router';
+import { Header } from '../components'
 
 // interface AppLinkProps extends LinkProps {
 //     label:string,
@@ -14,8 +11,8 @@ import Router from 'next/router';
 //         </Link>
 //   )
 // }
-export default function HeaderContainer(){
-return(
+export default function HeaderContainer() {
+  return (
     <Header>
       <Header.Link href="/">LOGO</Header.Link>
       <Header.Link href="/about">about</Header.Link>
@@ -23,14 +20,9 @@ return(
       <Header.Link href="/kka">KKA</Header.Link>
       <Header.Link href="/ppap">PPAP</Header.Link>
 
-
-        {/* <AppLink href="/about" label="About"/> 
+      {/* <AppLink href="/about" label="About"/> 
         <AppLink href="/#" label="home"/>
         <AppLink href="/#" label="pages"/> */}
     </Header>
-    
-
-
-)
-
+  )
 }
