@@ -31,6 +31,14 @@ const theme: DefaultTheme = {
     mobile: `@media screen and (max-width: ${size.mobile}px)`,
     mobileS: `@media screen and (max-width: ${size.mobileS}px)`,
   },
+  flex:{
+    direction:`direction`,
+
+  },
+   animate:{
+    animate:`animate`,
+
+  },
 }
 
 export default theme

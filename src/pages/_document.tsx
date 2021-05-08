@@ -27,3 +27,5 @@ export default class MyDocument extends Document {
     }
   }
 }
+
+// 삭제해야할지 고민중... props 값을 쓰면 기존 theme 에 설정된 값만나옴..ㅠ 

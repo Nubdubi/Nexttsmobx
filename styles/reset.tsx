@@ -26,7 +26,6 @@ const GlobalStyle = createGlobalStyle`
   select,
   button {
     -webkit-appearance: none;
-    background: none;
     border: none;
     font-size: inherit;
     color: inherit;

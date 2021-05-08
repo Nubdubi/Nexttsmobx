@@ -26,5 +26,12 @@ declare module 'styled-components' {
       mobile: string
       mobileS: string
     }
+    flex:{
+      direction:any
+
+    }
+    animate:{
+      animate:any
+    }
   }
 }

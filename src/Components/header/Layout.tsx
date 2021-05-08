@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Header from './Header'
-import Footer from './Footer'
+import Header from './Headera'
 
 
 
@@ -20,7 +19,7 @@ const Layout: React.FC<LayoutProps> = ({pageTitle, children})=>{
             <div>
                 <Header />
                 <main>{children}</main>
-                <Footer />
+                <Header />
             </div>
         </>
     )
