@@ -6,13 +6,13 @@ export const size = {
   mobile: '31.25em', // 500px
   mobileS: '23.125em', // 370px
 }
-export const DarkTheme ={
-  background:{
-    dark:'#dddddd'
+export const DarkTheme = {
+  background: {
+    dark: '#dddddd',
   },
-  color:{
-    white:'#ffffff'
-  }
+  color: {
+    white: '#ffffff',
+  },
 }
 const theme: DefaultTheme = {
   color: {
@@ -37,14 +37,6 @@ const theme: DefaultTheme = {
     tab: `@media screen and (max-width: ${size.tab}px)`,
     mobile: `@media screen and (max-width: ${size.mobile}px)`,
     mobileS: `@media screen and (max-width: ${size.mobileS}px)`,
-  },
-  flex:{
-    direction:`direction`,
-
-  },
-   animate:{
-    animate:`animate`,
-
   },
 }
 

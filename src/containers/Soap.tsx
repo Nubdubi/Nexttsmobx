@@ -1,10 +1,10 @@
 import React from 'react'
 import db from '../db/database.json'
 import { MainStyled } from '../../styles/SoapStyle'
-import { Soap } from '../components'
+import { Soap } from '../Components'
 // styledButton 에서 CSS 값 출력 테스트.. 스타일컴포넌트 어렵다...
 
-export function SoapContainer(): React.ReactElement {
+export function SoapContainer(): JSX.Element {
   return (
     <MainStyled>
       <Soap.Container>

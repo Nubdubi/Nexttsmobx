@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header } from '../components'
+import { Header } from '../Components'
 
 // interface AppLinkProps extends LinkProps {
 //     label:string,
@@ -11,7 +11,7 @@ import { Header } from '../components'
 //         </Link>
 //   )
 // }
-export default function HeaderContainer() {
+export default function HeaderContainer(): JSX.Element {
   return (
     <Header>
       <Header.Link href="/">LOGO</Header.Link>

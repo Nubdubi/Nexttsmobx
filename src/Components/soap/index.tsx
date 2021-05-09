@@ -1,37 +1,34 @@
 import React from 'react'
-import {Container,SoapItem,Title,Price,Description,Category,Image,Button} from "./style/SoapStyle"
+import { Container, SoapItem, Title, Price, Description, Category, Image, Button } from './style/SoapStyle'
 
-
-export default function Soap({children,...restProps}) {
-  return (<SoapItem {...restProps}> {children} </SoapItem>
-
-  )
+export default function Soap({ children, ...restProps }: ChildrenType): JSX.Element {
+  return <SoapItem {...restProps}> {children} </SoapItem>
 }
 
-Soap.Container =function SoapContainer({ children, ...restProps}){
-  return<Container {...restProps}>{children}</Container>
+Soap.Container = function SoapContainer({ children, ...restProps }: ChildrenType) {
+  return <Container {...restProps}>{children}</Container>
 }
 
-Soap.Title =function SoapTitle({ children, ...restProps}){
-  return<Title {...restProps}>{children}</Title>
+Soap.Title = function SoapTitle({ children, ...restProps }: ChildrenType) {
+  return <Title {...restProps}>{children}</Title>
 }
 
-Soap.Price =function SoapPrice({ children, ...restProps}){
-  return<Price {...restProps}>{children}</Price>
+Soap.Price = function SoapPrice({ children, ...restProps }: ChildrenType) {
+  return <Price {...restProps}>{children}</Price>
 }
 
-Soap.Description =function SoapDescription({ children, ...restProps}){
-  return<Description {...restProps}>{children}</Description>
+Soap.Description = function SoapDescription({ children, ...restProps }: ChildrenType) {
+  return <Description {...restProps}>{children}</Description>
 }
 
-Soap.Category =function SoapCategory({ children, ...restProps}){
-  return<Category {...restProps}>{children}</Category>
+Soap.Category = function SoapCategory({ children, ...restProps }: ChildrenType) {
+  return <Category {...restProps}>{children}</Category>
 }
 
-Soap.Image =function SoapImage({...restProps}){
-  return<Image {...restProps} />
+Soap.Image = function SoapImage({ ...restProps }) {
+  return <Image {...restProps} />
 }
 
-Soap.Button =function SoapButton({...restProps}){
-  return<Button {...restProps} />
+Soap.Button = function SoapButton({ ...restProps }) {
+  return <Button {...restProps} />
 }

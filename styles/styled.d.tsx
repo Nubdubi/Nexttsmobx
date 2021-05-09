@@ -2,7 +2,6 @@ import 'styled-components'
 
 declare module 'styled-components' {
   export interface DefaultTheme {
-   
     color: {
       primary: string
       secondary: string
@@ -25,13 +24,6 @@ declare module 'styled-components' {
       tab: string
       mobile: string
       mobileS: string
-    }
-    flex:{
-      direction:any
-
-    }
-    animate:{
-      animate:any
     }
   }
 }

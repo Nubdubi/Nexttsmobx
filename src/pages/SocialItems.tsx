@@ -1,18 +1,16 @@
-import * as React from "react";
-import { observer } from "mobx-react";
-import store from "../store/Rootstore";
-import styled from "styled-components";
-
+import * as React from 'react'
+// import { observer } from 'mobx-react'
+// import store from '../store/Rootstore'
+// import styled from 'styled-components'
 
 // function itemListItems() {
 //   const styleTest ={
 //     background: `${store.bgColor}`,
 //     width:`${store.widthValue}`,
 //     height:`${store.heightValue}`,
-    
+
 //   }
 
-  
 //   return (
 //     <>
 //       {store.lists.map((list) => (
@@ -27,7 +25,7 @@ import styled from "styled-components";
 //           <button onClick={store.WebViewStyled}>
 //             배경색변경
 //           </button>
-         
+
 //           </div>
 //       ))}
 //     </>
@@ -37,17 +35,13 @@ import styled from "styled-components";
 // const ObserveditemListItems = observer(itemListItems);
 // // item List 에  mobx 의 oberved로  itemlistItem을 끌어와줌
 
-function itemList() {
+function itemList(): JSX.Element {
   return (
     <>
       <p>Todo List</p>
-        <div className="ProductWrapper">
-      
-      {/* <ObserveditemListItems/>   */}
-          </div>
-
+      <div className="ProductWrapper">{/* <ObserveditemListItems/>   */}</div>
     </>
-  );
+  )
 }
 
-export default itemList;
+export default itemList

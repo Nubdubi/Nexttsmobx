@@ -3,20 +3,21 @@
 // import Layout from '../Components/Layout'
 // import Topbar from '../Components/TopBar'
 // import Rows from './Rows'
-
+import React from 'react'
 // 소셜에 출력되는 데이터 출력
 
-function SocialItem(){
-    // const onLoad= () => {
-    //     store.load('https://fakestoreapi.com/products?limit=10')
-    //     }
-    return (
-        <>
-{/* // <Layout pageTitle="">
+function SocialItem(): JSX.Element {
+  // const onLoad= () => {
+  //     store.load('https://fakestoreapi.com/products?limit=10')
+  //     }
+  /* // <Layout pageTitle="">
 //     <Topbar/>
 //     <Rows/>
-// </Layout> */}
-        </>
-    )
+// </Layout> */
+  return (
+    <>
+      <div></div>
+    </>
+  )
 }
-    export default SocialItem
+export default SocialItem

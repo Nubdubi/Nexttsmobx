@@ -1,9 +1,7 @@
-function ppap() {
-  return (
-    <div>
-      Enter
-    </div>
-  );
+import React from 'react'
+
+function ppap(): JSX.Element {
+  return <div></div>
 }
 
-export default ppap;
+export default ppap

@@ -1,28 +1,33 @@
 import React from 'react'
 import { Container, Row, Colum, Link, Title, Text, Break } from './style/footer'
 
-export default function Footer({ children, ...restProps }) {
-	return <Container {...restProps}>{children}</Container>
+type Footer = {
+  children?: React.ReactNode
+  restProps?: React.ReactNode
 }
 
-Footer.Row = function FooterRow({ children, ...restProps }) {
-	return <Row {...restProps}>{children}</Row>
-}
-Footer.Colum = function FooterColum({ children, ...restProps }) {
-	return <Colum {...restProps}>{children}</Colum>
+export default function Footer({ children, ...restProps }: Footer): JSX.Element {
+  return <Container {...restProps}>{children}</Container>
 }
 
-Footer.Link = function FooterLink({ ...restProps }) {
-	return <Link {...restProps}></Link>
+Footer.Row = function FooterRow({ children }: Footer) {
+  return <Row>{children}</Row>
 }
-Footer.Title = function FooterTitle({ children, ...restProps }) {
-	return <Title {...restProps}>{children}</Title>
-}
-
-Footer.Text = function FooterText({ children, ...restProps }) {
-	return <Text {...restProps}>{children}</Text>
+Footer.Colum = function FooterColum({ children }: Footer) {
+  return <Colum>{children}</Colum>
 }
 
-Footer.Break = function FooterBreak({ ...restProps }) {
-	return <Break {...restProps} />
+Footer.Link = function FooterLink({ ...restProps }: Footer) {
+  return <Link {...restProps}></Link>
+}
+Footer.Title = function FooterTitle({ children, ...restProps }: Footer) {
+  return <Title {...restProps}>{children}</Title>
+}
+
+Footer.Text = function FooterText({ children, ...restProps }: Footer) {
+  return <Text {...restProps}>{children}</Text>
+}
+
+Footer.Break = function FooterBreak({ ...restProps }: Footer) {
+  return <Break {...restProps} />
 }
