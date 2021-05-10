@@ -1,5 +1,5 @@
 import React from 'react'
-import { MainStyled } from '../../styles/SoapStyle'
+import { MainStyled } from '../Components/soap/SoapStyle'
 import { SoapContainer } from '../containers/Soap'
 import FooterContainer from '../containers/Footer'
 

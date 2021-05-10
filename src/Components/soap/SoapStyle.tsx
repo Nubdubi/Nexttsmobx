@@ -1,6 +1,4 @@
-import React from 'react'
-import styled, { css, keyframes } from 'styled-components'
-import color from '../../../../styles/theme'
+import styled, { keyframes } from 'styled-components'
 
 export const StyledButton = styled.button`
   width:100px;
@@ -28,17 +26,14 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 `
-const big = keyframes`
-  0% {
-    transform: scale(1);
-  }
-  
-  100% {
-    transform: scale(2);
-  }
-
-
-`
+// const big = keyframes`
+//   0% {
+//     transform: scale(1);
+//   }
+//   100% {
+//     transform: scale(2);
+//   }
+// `
 
 export const SoapItem = styled.div`
   width: 20%;

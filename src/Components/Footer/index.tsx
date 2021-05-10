@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Colum, Link, Title, Text, Break } from './style/footer'
+import { Container, Row, Colum, Link, Title, Text, Break } from './footer'
 
 type Footer = {
   children?: React.ReactNode

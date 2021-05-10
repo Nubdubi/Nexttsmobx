@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Something } from './style/kkakStyle'
+import { Container, Something } from './kkakStyle'
 
 export default function Kkak({ children, ...restProps }: ChildrenType): JSX.Element {
   return <Container {...restProps}>{children}</Container>

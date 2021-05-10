@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, SoapItem, Title, Price, Description, Category, Image, Button } from './style/SoapStyle'
+import { Container, SoapItem, Title, Price, Description, Category, Image, Button } from './SoapStyle'
 
 export default function Soap({ children, ...restProps }: ChildrenType): JSX.Element {
   return <SoapItem {...restProps}> {children} </SoapItem>

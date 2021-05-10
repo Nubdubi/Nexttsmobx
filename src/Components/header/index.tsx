@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Link } from './style/HeaderStyle'
+import { Container, Link } from './HeaderStyle'
 
 interface Headerinterface {
   children?: React.ReactNode

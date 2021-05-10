@@ -1,6 +1,6 @@
 import React from 'react'
-import db from '../db/database.json'
-import { MainStyled } from '../../styles/SoapStyle'
+import db from '../constants/database.json'
+import { MainStyled } from '../Components/soap/SoapStyle'
 import { Soap } from '../Components'
 // styledButton 에서 CSS 값 출력 테스트.. 스타일컴포넌트 어렵다...
 
