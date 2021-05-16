@@ -12,4 +12,11 @@ declare type Links = {
   href: string
 }
 
+declare type className = {
+  children?: React.ReactNode
+  restProps?: JSX.Element
+  className?: string
+  intext?: string
+}
+
 declare type JSX = JSX.Element
